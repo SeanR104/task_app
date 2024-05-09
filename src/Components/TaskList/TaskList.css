@@ -1,0 +1,106 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    text-align: left;
+}
+
+.header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    width: 50px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: left;
+}
+
+.wrapper ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wrapper .new-task {
+    list-style: circle;
+}
+
+.wrapper li {
+    margin-bottom: 20px;
+}
+
+.wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper a {
+    color: white;
+}
+
+.modal {
+    display: none;
+}
+
+.task-header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.buttons-container button {
+    display: flex;
+    background: transparent;
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.status-select {
+    display: flex;
+    background-color: transparent;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.Todo {
+    color: red;
+    display: flex;
+}
+
+.In-progress {
+    color: orange;
+    display: flex;
+}
+
+.Done {
+    color: green;
+    display: flex;
+}

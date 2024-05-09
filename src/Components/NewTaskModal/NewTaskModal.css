@@ -1,0 +1,42 @@
+.wrapper-modal {
+    display: flex;
+    flex-direction: column;
+    background: url(../Assets/background3.jpg)
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 30px 40px;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    width: 420px;
+}
+
+.wrapper-modal h2 {
+    margin-bottom: 20px;
+}
+
+.wrapper-modal input {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.wrapper-modal textarea {
+    margin-left: 10px;
+}
+
+.wrapper-modal select {
+    margin-left: 10px;
+}

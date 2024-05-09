@@ -1,0 +1,11 @@
+.search-modal.open {
+    display: block;
+}
+
+.search-modal {
+    display: none;
+}
+
+.all-statueses {
+    color: black;
+}
